@@ -57,6 +57,31 @@ npm run ios
 # OR using Yarn
 yarn ios
 ```
+# Actividad 6 - App de Libros (Google Books + Favoritos)
+
+Esta aplicación móvil híbrida permite buscar libros usando la Google Books API, ver detalles y guardar libros como favoritos en almacenamiento local. Desarrollada con React Native.
+
+## Características
+
+- Búsqueda de libros por título o autor (Google Books API)
+- Vista de detalles del libro (descripción, autores, portada, fecha)
+- Guardar libros como favoritos (almacenamiento local con AsyncStorage)
+- Pantalla para ver y navegar tus favoritos
+- Navegación entre pantallas
+- Manejo de errores y estados de carga
+
+## Dependencias principales
+
+- `@react-navigation/native`
+- `@react-navigation/stack`
+- `react-native-screens`
+- `react-native-safe-area-context`
+- `react-native-gesture-handler`
+- `react-native-reanimated`
+- `react-native-worklets`
+- `@react-native-async-storage/async-storage`
+
+
 
 If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
 
